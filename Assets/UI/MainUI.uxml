@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="inventory-window" src="project://database/Assets/UI/inventory-window.uxml?fileID=9197481963319205126&amp;guid=f34fb2d219ae7504a979cc7f851d497f&amp;type=3#inventory-window" />
+    <ui:Template name="pick-up-hint" src="project://database/Assets/UI/pick-up-hint.uxml?fileID=9197481963319205126&amp;guid=a5312837763391648b874ea3e26cbbbc&amp;type=3#pick-up-hint" />
+    <ui:VisualElement name="root" class="root" style="flex-grow: 1;">
+        <ui:Instance template="pick-up-hint" name="pick-up-hint" class="pick-up-hint" style="width: 100%; height: 100%; position: absolute;" />
+        <ui:Instance template="inventory-window" name="inventory-window" class="inventory-window" style="width: 100%; height: 100%; position: absolute;" />
+    </ui:VisualElement>
+</ui:UXML>

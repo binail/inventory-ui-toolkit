@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "iconName": "red",
+      "cubeColor": { "r": 1.0, "g": 0.0, "b": 0.0, "a": 1.0 },
+      "stackable": true,
+      "maxStack": 2
+    },
+    {
+      "id": "2",
+      "iconName": "green",
+      "cubeColor": { "r": 0.0, "g": 1.0, "b": 0.0, "a": 1.0 },
+      "stackable": false,
+      "maxStack": 1
+    },
+    {
+      "id": "3",
+      "iconName": "blue",
+      "cubeColor": { "r": 0.0, "g": 0.0, "b": 1.0, "a": 1.0 },
+      "stackable": true,
+      "maxStack": 3
+    }
+  ]
+}

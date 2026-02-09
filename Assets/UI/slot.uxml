@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="item-view" src="project://database/Assets/UI/item-view.uxml?fileID=9197481963319205126&amp;guid=b0b047e31d4faf745b18b1b335974a70&amp;type=3#item-view" />
+    <ui:VisualElement name="slot" class="slot" style="flex-grow: 1; margin-right: 20px; margin-bottom: 20px; width: 200px; height: 200px; max-width: 200px; min-width: 200px; min-height: 200px; max-height: 200px; background-color: rgb(118, 105, 105); border-top-left-radius: 17px; border-top-right-radius: 17px; border-bottom-right-radius: 17px; border-bottom-left-radius: 17px; border-left-color: rgb(84, 84, 84); border-right-color: rgb(84, 84, 84); border-top-color: rgb(84, 84, 84); border-bottom-color: rgb(84, 84, 84); border-top-width: 15px; border-right-width: 15px; border-bottom-width: 15px; border-left-width: 15px; margin-top: 20px; margin-left: 20px;">
+        <ui:Instance template="item-view" name="item-view" style="height: 170px; width: 170px;" />
+    </ui:VisualElement>
+</ui:UXML>
